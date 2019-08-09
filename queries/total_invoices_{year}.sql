@@ -1,0 +1,3 @@
+SELECT COUNT(*)
+FROM Invoice
+WHERE YEAR(InvoiceDate) IN (2009, 2011)
